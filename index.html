@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuCoin Ecosystem — Family Currency</title>
+  <meta name="description" content="Your house. Your rules. Their financial education.">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LuCoin Ecosystem">
+  <meta property="og:description" content="Your house. Your rules. Their financial education.">
+  <meta property="og:image" content="https://lucoinecosystem.com/og-image.png">
+  <meta property="og:url" content="https://lucoinecosystem.com">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LuCoin Ecosystem">
+  <meta name="twitter:description" content="Your house. Your rules. Their financial education.">
+  <meta name="twitter:image" content="https://lucoinecosystem.com/og-image.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACPklEQVR4nMWXv0ubQRjHv/f+SASXogiCTgqilixVOrSDuguVjoEsgpPo4miXQgOGOvknaJFS6iKlky6iIDh0ENqhrS4ODg6CConJvdcheZP3vffu8twbQ58tuffu87nn3vfuOQb7EG3amc1g1IfbQVOPTxFIwB9OBrUP976+tmKYGmNgE5Qoo2Q53YIr+imXUWXVfDAtWBWRbMSYsgAJPjxf0bZdfctaSSgFdHATmCrSkGhyPRmuCxm+s56UKRRb0OH5iikbIpRgkT8AqGcfhYfgKMzUppKILkVMgAJXgVUiRAmm+wyNcMaAtbyLzx98uA7gu/F+hWI2tkSmd8cBYZuVZyQEUK4AfgbgAVDlyT6yhCZEMwNy+k3W/c8Y5l46yI27+LLhIzfqtBZTE/J4Ic+4BIB63d8veXg17eLkjGP/KMDQQD0rclCy4BlbNfF8BPj9h6P8CHz6rsi/RbTNgCoOzgLkpnxkM/XfVgWAFKkyUNrmGOyrIr/gYccXWN3kuHsQqKVIRqoMiAD4dRng+LSGHp/h44qbCk4SUL1IPKh/u5NjDiqPwJsZD3slP9GXsnE5aCyhXMmYTrV3ix5+Xghs7XK8mHBw9IPj62FgBMnjhTsh6R0IsxDOZmSI4e2sh/syw/nfAMulKm5u432o2/Z/PwuiXxBZAniS0zB2HFtJRGHRkKXawa0EVBKmoFZE2qK0izWhsSglS9iGCm4SaEp0KqIrxykCMZEObkapr2YJiTAs7oZPcjk1ynQ65j8E+wlPtHodjgAAAABJRU5ErkJggg==">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: '#F5C518',
+            dark: '#0a0a0a',
+            card: '#111111',
+            muted: '#a0a0a0',
+            coinbg: '#1a1400',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          borderRadius: {
+            brand: '12px',
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #0a0a0a; }
+    ::selection { background: #F5C518; color: #0a0a0a; }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0 40px #111111 inset !important;
+      -webkit-text-fill-color: #ffffff !important;
+    }
+  </style>
+</head>
+<body class="font-sans text-white antialiased">
+
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <nav class="fixed top-0 w-full z-50 bg-dark/80 backdrop-blur-md border-b border-white/5">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2.5">
+        <svg width="32" height="32" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="60" cy="60" r="54" fill="#1a1400" stroke="#F5C518" stroke-width="6"/>
+          <path d="M68 28 L68 36 C75 38 82 44 82 54 C82 62 76 67 68 69 L68 69 L52 69 L52 69 C52 69 44 72 44 80 C44 90 54 92 60 92 C66 92 75 90 75 90 L68 92 L68 92" stroke="#F5C518" stroke-width="0" fill="none"/>
+          <path d="M52 28 L52 36 C44 38 38 44 38 54 C38 64 46 69 52 69 L68 69 C68 69 76 72 76 80 C76 90 66 92 60 92 C54 92 45 90 38 86 L52 92 L52 92" stroke="#F5C518" stroke-width="0" fill="none"/>
+          <path d="M55 20 L55 100" stroke="#F5C518" stroke-width="7" stroke-linecap="round"/>
+          <path d="M67 20 L67 100" stroke="#F5C518" stroke-width="7" stroke-linecap="round"/>
+          <path d="M70 34 C78 38 84 46 84 56 C84 66 76 72 66 72 L54 72 C44 72 36 78 36 88 C36 94 40 98 50 100" stroke="#F5C518" stroke-width="8" stroke-linecap="round" fill="none"/>
+          <path d="M50 34 C42 38 36 46 36 56 C36 66 44 72 54 72 L66 72 C76 72 84 78 84 88 C84 94 80 98 70 100" stroke="#F5C518" stroke-width="0" fill="none"/>
+        </svg>
+        <span class="text-gold font-bold text-lg tracking-tight">LuCoin Ecosystem</span>
+      </a>
+      <a href="#waitlist" class="border border-gold text-gold px-5 py-2 rounded-brand text-sm font-semibold hover:bg-gold hover:text-dark transition-all duration-200">Join waitlist</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="pt-32 pb-20 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <!-- Hero coin SVG -->
+      <div class="flex justify-center mb-10">
+        <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="60" cy="60" r="54" fill="#1a1400" stroke="#F5C518" stroke-width="6"/>
+          <path d="M55 20 L55 100" stroke="#F5C518" stroke-width="7" stroke-linecap="round"/>
+          <path d="M67 20 L67 100" stroke="#F5C518" stroke-width="7" stroke-linecap="round"/>
+          <path d="M70 34 C78 38 84 46 84 56 C84 66 76 72 66 72 L54 72 C44 72 36 78 36 88 C36 94 40 98 50 100" stroke="#F5C518" stroke-width="8" stroke-linecap="round" fill="none"/>
+        </svg>
+      </div>
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight mb-6">
+        My son is 2. His sisters already run the economy.
+      </h1>
+      <p class="text-muted text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
+        LuCoin Ecosystem turns your family into a mini economy. Kids earn real cryptocurrency-backed coins for good behavior, invest them, watch them grow — and learn how money actually works before they're 18.
+      </p>
+      <a href="#waitlist" class="inline-block bg-gold text-dark font-bold text-lg px-8 py-4 rounded-brand hover:brightness-110 transition-all duration-200">
+        Join the waitlist — it's free
+      </a>
+      <p class="text-muted/60 text-sm mt-6">
+        Built by a dad. Tested by real kids. Named after a 2-year-old who doesn't know it yet.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PAIN ═══════════════ -->
+  <section class="py-20 px-6">
+    <div class="max-w-xl mx-auto text-center">
+      <p class="text-muted text-lg md:text-xl leading-relaxed">
+        You already know the feeling. Your kid does something great. You say "good job" and hand them $5. They spend it in 10 minutes. Nothing learned.
+      </p>
+      <p class="text-muted text-lg md:text-xl leading-relaxed mt-6">
+        You're not failing as a parent. You're just reacting instead of running a system.
+      </p>
+      <p class="text-white text-lg md:text-xl leading-relaxed mt-6 font-semibold">
+        LuCoin Ecosystem gives you the system.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ORIGIN STORY ═══════════════ -->
+  <section class="py-20 px-6">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-10">How LuCoin started</h2>
+      <div class="bg-card border border-white/10 border-l-4 border-l-gold rounded-brand p-8 md:p-10">
+        <p class="text-muted leading-relaxed text-base md:text-lg">
+          I didn't build this in a startup accelerator. I built it because my daughters kept forgetting what they earned. So I invented a currency. Named it after their baby brother, Lukas. Gave them a ledger book. Told them: you earn LuCoins, you write it down, you subtract when you spend.
+        </p>
+        <p class="text-muted leading-relaxed text-base md:text-lg mt-4">
+          Eight years old. Ten years old. Keeping books like accountants at Five Below.
+        </p>
+        <p class="text-muted leading-relaxed text-base md:text-lg mt-4">
+          Then I taught them spreadsheets. Then I connected it to real crypto prices. LuCoin Ecosystem is that ledger book — digitized.
+        </p>
+        <p class="text-gold font-semibold mt-6">— Kam, founder & dad</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ HOW IT WORKS ═══════════════ -->
+  <section class="py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">How it works</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-card border-t-2 border-t-gold rounded-brand p-8">
+          <div class="text-4xl mb-4">&#127974;</div>
+          <h3 class="text-white font-bold text-xl mb-3">You're the Federal Reserve</h3>
+          <p class="text-muted leading-relaxed">Set the exchange rate. Issue LuCoins. Control the money supply.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-card border-t-2 border-t-gold rounded-brand p-8">
+          <div class="text-4xl mb-4">&#128200;</div>
+          <h3 class="text-white font-bold text-xl mb-3">Kids learn by doing</h3>
+          <p class="text-muted leading-relaxed">They watch their LuCoins move with real crypto prices. Hold, cash out, invest more — their call.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-card border-t-2 border-t-gold rounded-brand p-8">
+          <div class="text-4xl mb-4">&#128722;</div>
+          <h3 class="text-white font-bold text-xl mb-3">Spend, save, or invest</h3>
+          <p class="text-muted leading-relaxed">Set up a family shop. They earn it. They buy it. You stop saying no — the ledger does.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ VIRAL MOMENT ═══════════════ -->
+  <section class="py-20 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-10">The moment that changes everything</h2>
+      <p class="text-muted text-lg md:text-xl leading-relaxed mb-6">
+        One day your kid is going to time the market better than you. They'll cash out before a dip. Buy back at the bottom. Screenshot their portfolio. You'll send it to every parent group you're in.
+      </p>
+      <p class="text-gold text-xl md:text-2xl font-bold leading-relaxed mb-6">
+        "My 9-year-old just outperformed my 401k. &#128557;"
+      </p>
+      <p class="text-muted text-lg md:text-xl leading-relaxed">
+        That's the moment. It starts with one LuCoin.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════ VS SECTION ═══════════════ -->
+  <section class="py-20 px-6">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Not another chore app</h2>
+      <div class="space-y-5">
+        <div class="flex items-center gap-4 text-lg md:text-xl">
+          <span class="text-muted/40 font-medium shrink-0">Greenlight</span>
+          <span class="text-muted/30">→</span>
+          <span class="text-muted">teaches spending</span>
+        </div>
+        <div class="flex items-center gap-4 text-lg md:text-xl">
+          <span class="text-muted/40 font-medium shrink-0">BusyKid</span>
+          <span class="text-muted/30">→</span>
+          <span class="text-muted">teaches saving</span>
+        </div>
+        <div class="flex items-center gap-4 text-lg md:text-xl">
+          <span class="text-gold font-bold shrink-0">LuCoin Ecosystem</span>
+          <span class="text-gold/50">→</span>
+          <span class="text-gold font-semibold">teaches how economies work</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PRICING ═══════════════ -->
+  <section class="py-20 px-6">
+    <div class="max-w-lg mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Simple pricing. One family. Everything.</h2>
+      <p class="text-muted mb-10">No tiers. No upsells. One plan.</p>
+      <div class="bg-card border border-gold rounded-brand p-8 md:p-10 text-left">
+        <span class="inline-block bg-gold/15 text-gold text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">Founding Family</span>
+        <div class="flex items-baseline gap-1 mb-1">
+          <span class="text-white text-5xl font-extrabold">$9.99</span>
+          <span class="text-muted text-lg">/ month</span>
+        </div>
+        <p class="text-muted text-sm mb-8">Lock in the founding rate.</p>
+        <ul class="space-y-3 mb-10">
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-gold mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span class="text-white">Unlimited children</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-gold mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span class="text-white">Real-time crypto-backed LuCoin value</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-gold mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span class="text-white">Family shop with custom rewards</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-gold mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span class="text-white">Full transaction history</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-gold mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <span class="text-white">Parent + child dashboards</span>
+          </li>
+        </ul>
+        <a href="#waitlist" class="block text-center bg-gold text-dark font-bold text-lg px-6 py-4 rounded-brand hover:brightness-110 transition-all duration-200 w-full">
+          Reserve your spot
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ WAITLIST ═══════════════ -->
+  <section id="waitlist" class="py-20 px-6">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Be first. Shape the product.</h2>
+      <p class="text-muted text-lg mb-10">Founding families get early access, the locked-in rate, and a direct line to the product.</p>
+      <form id="waitlist-form" class="flex flex-col sm:flex-row gap-3 mb-4">
+        <input
+          type="email"
+          required
+          placeholder="your@email.com"
+          class="flex-1 bg-card border border-white/10 text-white placeholder-muted/50 px-5 py-4 rounded-brand text-base focus:outline-none focus:border-gold transition-colors duration-200"
+        >
+        <button
+          type="submit"
+          class="bg-gold text-dark font-bold px-8 py-4 rounded-brand text-base hover:brightness-110 transition-all duration-200 shrink-0"
+        >
+          Join the waitlist
+        </button>
+      </form>
+      <div id="waitlist-confirmation" class="hidden text-gold font-semibold text-lg py-3">
+        You're on the list. &#10003;
+      </div>
+      <p class="text-muted/50 text-sm mt-2">No spam. No pitch deck. Just a founder who wants to build this right.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="py-12 px-6 border-t border-white/5">
+    <p class="text-center text-muted/40 text-sm">LuCoin Ecosystem &copy; 2026 &middot; Built by a dad, for parents.</p>
+  </footer>
+
+  <script>
+    document.getElementById('waitlist-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      var email = this.querySelector('input[type="email"]').value;
+      if (email) {
+        this.classList.add('hidden');
+        document.getElementById('waitlist-confirmation').classList.remove('hidden');
+      }
+    });
+  </script>
+</body>
+</html>
