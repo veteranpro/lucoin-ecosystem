@@ -258,24 +258,16 @@
     <div class="max-w-xl mx-auto text-center">
       <h2 class="text-3xl md:text-4xl font-bold mb-4">Be first. Shape the product.</h2>
       <p class="text-muted text-lg mb-10">Founding families get early access, the locked-in rate, and a direct line to the product.</p>
-      <form id="waitlist-form" class="flex flex-col sm:flex-row gap-3 mb-4">
-        <input
-          type="email"
-          required
-          placeholder="your@email.com"
-          class="flex-1 bg-card border border-white/10 text-white placeholder-muted/50 px-5 py-4 rounded-brand text-base focus:outline-none focus:border-gold transition-colors duration-200"
-        >
-        <button
-          type="submit"
-          class="bg-gold text-dark font-bold px-8 py-4 rounded-brand text-base hover:brightness-110 transition-all duration-200 shrink-0"
-        >
-          Join the Founding Family — $29.99/mo
-        </button>
-      </form>
-      <div id="waitlist-confirmation" class="hidden text-gold font-semibold text-lg py-3">
-        You're on the list. &#10003;
-      </div>
-      <p class="text-muted/50 text-sm mt-2">No spam. No pitch deck. Just a founder who wants to build this right.</p>
+      <iframe
+        src="https://embeds.beehiiv.com/pub_40af515a-74ed-434e-aa5d-10add2287a61"
+        data-test-id="beehiiv-embed"
+        width="100%"
+        height="320"
+        frameborder="0"
+        scrolling="no"
+        style="border-radius: 8px; border: 1px solid #F5C518; margin: 0; background-color: transparent;"
+      ></iframe>
+      <p class="text-muted/50 text-sm mt-4">No spam. No pitch deck. Just a founder who wants to build this right.</p>
     </div>
   </section>
 
@@ -284,15 +276,5 @@
     <p class="text-center text-muted/40 text-sm">LuCoin Ecosystem &copy; 2026 &middot; Built by a dad, for parents.</p>
   </footer>
 
-  <script>
-    document.getElementById('waitlist-form').addEventListener('submit', function(e) {
-      e.preventDefault();
-      var email = this.querySelector('input[type="email"]').value;
-      if (email) {
-        this.classList.add('hidden');
-        document.getElementById('waitlist-confirmation').classList.remove('hidden');
-      }
-    });
-  </script>
 </body>
 </html>
